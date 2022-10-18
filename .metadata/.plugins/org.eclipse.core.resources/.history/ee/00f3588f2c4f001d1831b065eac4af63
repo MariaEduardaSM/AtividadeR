@@ -1,0 +1,109 @@
+
+public class Testando {
+	public static void main (String[] args) {
+		
+		Onibus O1 = new Onibus ();
+		Onibus O2 = new Onibus ();
+		Onibus O3 = new Onibus ();
+		Onibus O4 = new Onibus ();
+		Onibus O5 = new Onibus ();
+		
+		O1.setplaca("DJK-555");
+		O2.setplaca("FTO-658");
+		O3.setplaca("MGK-920");
+		O4.setplaca("LMJ-5454");
+		O5.setplaca("HJL-9085");
+		
+		
+		O1.set(2018);
+		O2.setano(2003);
+		O3.setano(2005);
+		O4.setano(2011);
+		O5.setano(2015);
+				
+		O1.setassentos(32);
+		O2.setassentos(50);
+		O3.setassentos(22);
+		O4.setassentos(44);
+		O5.setassentos(35);
+		
+		
+		
+		
+		Caminhao C1= new Caminhao();
+		Caminhao C2= new Caminhao();
+		Caminhao C3= new Caminhao();
+		Caminhao C4= new Caminhao();
+		Caminhao C5= new Caminhao();
+		
+		
+		
+		
+		
+		C1.setplaca("PXH-654");
+		C2.setplaca("LPK-962");
+		C3.setplaca("DJD-115");
+		C4.setplaca("CDM-1112");
+		C5.setplaca("HGT-255");
+		
+		
+		C1.setano(2000);
+		C2.setano(2018);
+		C3.setano(2008);
+		C4.setano(2005);
+		C5.setano(2003);
+		
+		C1.seteixos(3);
+		C2.seteixos(6);
+		C3.seteixos(2);
+		C4.seteixos(8);
+		C5.seteixos(4);
+		
+		
+		
+		O1.exibirdados();
+		O2.exibirdados();
+		O3.exibirdados();
+		O4.exibirdados();
+		O5.exibirdados();
+		
+		
+		
+		C1.exibirdados();
+		C2.exibirdados();
+		C3.exibirdados();
+		C4.exibirdados();
+		C5.exibirdados();
+	}
+	
+}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+
+

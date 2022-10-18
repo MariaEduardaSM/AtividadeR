@@ -1,0 +1,26 @@
+
+public class Caminhao extends Veiculo {
+	
+	
+	private int eixos;
+	
+	
+	public Caminhao(String placa,int ano) {
+		super(placa,ano);
+		
+
+	}
+	
+	public int geteixos() {
+		return eixos;
+		
+	}
+	
+	public void seteixos(int eixos) {
+		this.eixos = eixos;
+	}
+	@Override
+	public void exibirdados() {
+	}
+	}
+	
